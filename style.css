@@ -48,6 +48,7 @@
     height: auto;
 }
 .header{
+    z-index: 999999;
     position: fixed;
     height: 64px;
     width: 100%;
@@ -453,6 +454,7 @@ ul.custom-list {
 .logo img{
     width: 160px;
     height: 30px;
+    filter: brightness(0) invert(1);
 }
 .second ul{
     text-align: left;
